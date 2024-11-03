@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+
+        .card {
+            width: 300px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+        }
+
+        .tags {
+            margin: 15px 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #e0e0e0;
+            border-radius: 50px;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: #333;
+            margin: 0 5px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 20px;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .description {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 50px;
+            background-color: #e0e0e0;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="jawan.jpg.jpeg" alt="SHARUKH KHAN">
+        <div class="content">
+            <div class="tags">
+                <span class="tag">MOVIES</span>
+                <span class="tag">GENRE</span>
+            </div>
+            <div class="title">JAWAN NAM TOH SUNA HOGA</div>
+            <div class="description">Jawan (/dʒəwɑːn/ transl. Soldier) is a 2023 Indian Hindi-language action thriller film co-written and directed by Atlee in his Hindi film debut.[4] It is produced by Gauri Khan and Gaurav Verma under Red Chillies Entertainment. The film stars Shah Rukh Khan in a dual role as father and son who team up to rectify corruption in society. Nayanthara, Vijay Sethupathi, Deepika Padukone, Priyamani and Sanya Malhotra appear in supporting roles.</div>
+            <a href="https://en.wikipedia.org/wiki/Jawan_(film)" class="button">Read More</a>
+        </div>
+    </div>
+
+</body>
+</html>
